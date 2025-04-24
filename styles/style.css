@@ -1,4 +1,19 @@
-h3{
+body{
     margin: 0;
     padding: 0;
+    background-color: wheat;
+}
+
+.solo{
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    transform: matrix(1, 0, -0.1, 1, 0, 0) rotateX(-40deg);
+}
+
+img{
+    height: 100%;
 }
